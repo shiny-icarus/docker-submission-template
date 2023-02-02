@@ -7,7 +7,7 @@ We will walk you through all the steps you will need to follow in order to prepa
 # 0. Corroborate that your method complies with all the requirements
 
 1. Be fully automatic and deterministic (make sure there are no random seeds required for prediction).
-1. Run on a system with 60GB RAM and a GTX 3060 12GB.
+1. Run on a system with 60GB RAM and GPU NVIDIA 12GB.
 1. Maximum docker size 20GB.
 1. File prediction should not take more than 1 hour per case.
 
@@ -71,6 +71,4 @@ Here, you will need to indicate which challenge you're submitting to. You can al
 
 Then, you can indicate whether you're submitting as a team or as an individual. If you're submitting as a team, remember to first Register your team on the challenge webpage.
 
-Once you confirm, the pipeline will run. You will receive an email indicating if it ran successfully and a link where you will be able to see the logs of the execution.
-
-If the docker execution ran without problems, you see the evaluation result over one random train case. This will allow you to corroborate that the model runs correctly over one (or more) cases.
+Once you confirm, the pipeline will run. You will receive an email indicating if it ran successfully and a link where you will be able to see the logs of the execution and the evaluation result over one random train case. This will allow you to corroborate that the model runs correctly over one volume.
